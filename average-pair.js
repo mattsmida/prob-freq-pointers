@@ -1,11 +1,10 @@
 "use strict";
 
 /**
- * Return a boolean check on if a targetAvg can be achieved in a array of numbers
+ * Check if you can find a targetAvg when averaging pairs from a sorted array.
  * @param {number[]} nums - A sorted array of numbers
- * @param {number} targetAvg - The value that we want to look for
- * @return {Boolean} - The check on if targetAvg is achieveable by averaging pairs
- *  in the nums array
+ * @param {number} targetAvg - The target average
+ * @return {Boolean} Return true if the average of pair matches the target or false
  * @example ([1, 2, 3], 2.5) -> true
  */
 
